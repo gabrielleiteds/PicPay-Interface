@@ -20,7 +20,7 @@ const items = [
     {
         key: String(Math.random()),
         img: img2,
-        label: 'doações'
+        label: 'Uber'
     },
     {
         key: String(Math.random()),
@@ -35,17 +35,17 @@ const items = [
     {
         key: String(Math.random()),
         img: img5,
-        label: 'doações'
+        label: 'central de doações'
     },
     {
         key: String(Math.random()),
         img: img6,
-        label: 'doações'
+        label: 'Pagar conta'
     },
     {
         key: String(Math.random()),
         img: img7,
-        label: 'doações'
+        label: 'Cobrar'
     },
 ]
 export default function Suggestions() {
