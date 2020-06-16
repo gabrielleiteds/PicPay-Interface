@@ -11,7 +11,7 @@ import img5 from '../../images/05.png';
 import img6 from '../../images/06.png';
 import img7 from '../../images/07.png';
 
-const items = [
+const items = [ 
     {
         key: String(Math.random()),
         img: img1,
