@@ -1,8 +1,11 @@
 import styled from 'styled-components/native';
 
 export const Wrapper = styled.SafeAreaView`
-backgroundColor: #000;
-flex: 1;`; 
+    backgroundColor: #000;
+    flex: 1;
+`;
+
+export const Container = styled.ScrollView``;
 
 export const Header = styled.View`
     height: 50px;
