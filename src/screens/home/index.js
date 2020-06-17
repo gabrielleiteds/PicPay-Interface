@@ -3,8 +3,10 @@ import { Text } from 'react-native';
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 import { Container, Wrapper, Header, BalanceContainer, BalanceTitle, Balance } from './styles';
 
-//suggestions
+//body 
 import Suggestions from '../../components/suggestions'; 
+import Activities from '../../components/Activities'
+
 export default function Home() {
     return (
         <Wrapper>
@@ -20,6 +22,7 @@ export default function Home() {
                 </Header>
                 
                 <Suggestions />
+                <Activities />
             </Container>
         </Wrapper>
     )
